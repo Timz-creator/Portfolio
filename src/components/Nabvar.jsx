@@ -113,7 +113,7 @@ const Nabvar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/timarley-foster-97a2b7231/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -121,7 +121,7 @@ const Nabvar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Timz-creator/"
             >
               GitHub
               <FaGithub size={30} />
@@ -130,7 +130,7 @@ const Nabvar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:timarleyf@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -138,7 +138,7 @@ const Nabvar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://docs.google.com/document/d/1qI1YQSWEqSYExXam-WluGQYtXnqjNSlXSIgXjnvO56o/edit?usp=sharing"
             >
               CV <BsFillPersonLinesFill size={30} />
             </a>

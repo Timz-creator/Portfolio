@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div>
             <p>
-                Lorem cupidatat incididunt eiusmod veniam. Consequat commodo consectetur proident sit veniam pariatur consectetur eiusmod nostrud ad reprehenderit veniam exercitation aliqua. Consequat in fugiat nulla et do aliquip fugiat qui do pariatur id non occaecat ipsum. Consectetur Lorem velit et sit commodo culpa sit consequat. Ipsum Lorem enim amet est ullamco eu labore sint.
+              I'm a Front-End Developer that enjoys using libraries such as React JS to create clean and responsive web applications. I have a bachelors in Electrical and Electronic Engineering, and I still enjoy using engineering principles to come up with elegant solutions to complex problems.
             </p>
           </div>
         </div>
