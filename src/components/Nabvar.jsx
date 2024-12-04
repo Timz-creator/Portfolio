@@ -9,7 +9,7 @@ const Nabvar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <ul className="hideen md:flex">
+      <ul className="hidden md:flex">
         <li>
           <Link to="hero" smooth={true} offset={50} duration={500}>
             Home
