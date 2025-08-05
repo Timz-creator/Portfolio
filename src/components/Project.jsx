@@ -3,9 +3,21 @@ import { ExternalLink, Github, Play } from "lucide-react";
 import BarberWeb from "../assets/BarberWeb.png";
 import Guess from "../assets/Guessinggame.png";
 import Ecomm from "../assets/Ecomm.png";
+import BillSplitter from "../assets/header._gumroad.png";
 
 const Project = () => {
   const projects = [
+    {
+      title: "Bill Splitter App",
+      description: "React JS Application",
+      image: BillSplitter,
+      demoUrl: "https://b-splitter-dusky.vercel.app/",
+      codeUrl: "https://github.com/Timz-creator/B-Splitter",
+      tech: ["React", "Tailwind CSS", "ShadCN"],
+      category: "Full-Stack",
+      fullDescription:
+        "Built a mobile-friendly web app for splitting bills among groups, focused on clear UX and real-time balance tracking. Developed a modern, responsive UI using React, Tailwind CSS, and ShadCN components. Implemented localStorage-based authentication with protected route logic for fast MVP validation. Engineered features like event creation, participant management, expense logging, and automatic split calculations. Used React Router to handle navigation across dashboard, event views, and modal flows. Designed the app as a reusable, high-conversion template tailored for consumer finance and early-stage fintech products.",
+    },
     {
       title: "E-Commerce Platform",
       description: "Next JS Application",
@@ -135,7 +147,6 @@ const Project = () => {
                     {project.category}
                   </span>
                 </div>
-
                 {/* Tech Stack */}
                 <div className="flex flex-wrap gap-1 mt-2">
                   {project.tech.map((tech, techIndex) => (
@@ -148,7 +159,6 @@ const Project = () => {
                     </span>
                   ))}
                 </div>
-
                 {/* Geometric accent */}
                 <div className="absolute top-2 right-2 w-3 h-3 border border-white/30 rotate-45 opacity-50"></div>
               </div>
@@ -169,10 +179,9 @@ const Project = () => {
               className="text-gray-400 text-sm"
               style={{ fontFamily: "monospace" }}
             >
-              3+ Completed
+              4+ Completed
             </p>
           </div>
-
           <div className="bg-black border border-gray-800 p-6 text-center hover:border-gray-600 transition-colors">
             <div
               className="text-2xl font-bold text-white mb-2"
@@ -184,10 +193,9 @@ const Project = () => {
               className="text-gray-400 text-sm"
               style={{ fontFamily: "monospace" }}
             >
-              React, Next.js, JavaScript
+              React, Next.js, Tailwind, ShadCN
             </p>
           </div>
-
           <div className="bg-black border border-gray-800 p-6 text-center hover:border-gray-600 transition-colors">
             <div
               className="text-2xl font-bold text-white mb-2"
